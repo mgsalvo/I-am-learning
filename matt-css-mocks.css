@@ -1,0 +1,110 @@
+hr {
+    margin: 50px;
+  }
+  
+  button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #2890f7;
+    color: white;
+    margin: 50px auto;
+    display: block;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #115ba2;
+  }
+  
+  .card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 1px 0px #bbb;
+  }
+  
+  .img {
+    background-image: url("https://static.wikia.nocookie.net/starwarsrebels/images/6/6a/Kindred_03.jpg/revision/latest?cb=20171114193440");
+    width: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .title {
+    background-color: #eee;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  
+  .description {
+    padding: 15px;
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .tiles {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tile {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    border: 8px solid white;
+    background-color: white;
+  }
+  
+  .img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 8px;
+    background-size: cover;
+  }
+  
+  .img-1 {
+    background-image: url("https://i.pinimg.com/originals/e2/e6/75/e2e675439a50d239a43a309472b06fbd.gif");
+  }
+  
+  .img-2 {
+    background-image: url("https://64.media.tumblr.com/3db79bc4d501caec676e01894c32d3d6/3d29dd961dd6f34c-f6/s500x750/3374cc418953396b6f8ac26fd5c0ff29f2f3e72c.gifv");
+  }
+  
+  .img-3 {
+    background-image: url("https://starwarsanon.files.wordpress.com/2017/06/thrawn-gif.gif");
+  }
+  
+  .caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+    transition: top 0.5s;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .tile:hover .caption {
+    top: 0;
+  }
